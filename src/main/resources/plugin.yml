@@ -1,0 +1,12 @@
+name: StratumJukebox
+version: ${project.version}
+main: moe.quilldev.stratumjukebox.StratumJukebox
+api-version: 1.16
+depend: [ StratumCommon ]
+commands:
+  play:
+    usage: /<command>
+    permission: stratumjukebox.play
+  musicreload:
+    usage: /<command>
+    permission: stratumjukebox.reload
